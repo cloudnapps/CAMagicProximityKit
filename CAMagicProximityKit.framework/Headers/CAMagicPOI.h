@@ -2,7 +2,7 @@
 //  CAMagicLocation.h
 //  CAMagicProximityKit
 //
-//  Copyright © 2016 Yujia Tech. All rights reserved.
+//  Copyright © 2016 MagicSDK.cn. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

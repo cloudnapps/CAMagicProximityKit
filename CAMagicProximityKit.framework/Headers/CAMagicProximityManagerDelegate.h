@@ -2,7 +2,7 @@
 //  CAMagicProximityManagerDelegate.h
 //  CAMagicProximityKit
 //
-//  Copyright © 2016 Yunjia Tech. All rights reserved.
+//  Copyright © 2016 MagicSDK.cn All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

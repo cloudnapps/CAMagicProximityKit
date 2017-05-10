@@ -2,7 +2,7 @@
 //  CAMagicConfig.h
 //  CAMagicProximityKit
 //
-//  Copyright © 2016 Yunjia Tech. All rights reserved.
+//  Copyright © 2016 MagicSDK.cn All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -28,6 +28,12 @@
  *  Allow always use location, recommended by default
  */
 @property (assign, nonatomic) BOOL alwaysUsingLocation;
+
+/**
+ *  Allow SDK to request location authorization for always or inuse case, YES by default
+ *  Set NO if it is not allowed to alert location authorization request on start and you need to handle the permission alert by yourself
+ */
+@property (assign, nonatomic) BOOL requestLocationAuthorizationOnStart;
 
 /**
  *  User related identifier such as mobile phone

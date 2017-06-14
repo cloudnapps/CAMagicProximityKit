@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "CAMagicProximityKit"
-  s.version      = "1.2.9"
+  s.version      = "1.2.10"
   s.summary      = "Magic SDK iOS Framework distributed by magicsdk.cn."
 
   # This description is used to generate tags and improve search results.

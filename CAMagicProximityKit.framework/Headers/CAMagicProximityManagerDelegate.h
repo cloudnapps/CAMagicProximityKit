@@ -16,5 +16,4 @@
 - (void)proximityManager:(CAMagicProximityManager *)proximityManager didUpdatePOIs:(NSArray *)pois;
 - (void)proximityManager:(CAMagicProximityManager *)proximityManager didFailToMonitorWithError:(NSError*)error;
 - (void)proximityManager:(CAMagicProximityManager *)proximityManager didOpenNotification:(NSDictionary*)userInfo;
-
 @end

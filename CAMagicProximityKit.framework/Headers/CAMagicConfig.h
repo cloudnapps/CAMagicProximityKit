@@ -41,13 +41,20 @@
 @property (strong, nonatomic) NSString* userCode;
 
 /**
+ *  Enable Beacon level specific callback function, NO by default
+ */
+@property (assign, nonatomic) BOOL enableBeaconCallback;
+
+
+/**
+ *  Enable Wifi level specific callback function, NO by default
+ */
+@property (assign, nonatomic) BOOL enableWifiCallback;
+
+/**
  *  Init SDK with provided appKey and appSecret
  */
 - (instancetype)initWithAppkey: (NSString *)appkey appSecret: (NSString *)appsecret;
 
-/**
- *  from SDK 1.1, this method is deprected, set certificate on the server side instead
- */
-- (void) setupCertificate:(NSString*) pkcs12FileName withPassword:(NSString*) pkcs12Password __deprecated_msg("config certificate on the server side instead");
 
 @end
